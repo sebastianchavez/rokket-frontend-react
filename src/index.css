@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #2d3436 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn-rokket {
+  color: white;
+  background-color: #6c5ce7;
+}
+
+.btn-rokket:hover {
+  color: white;
+  background-color: #a29bfe;
+}
+
+.btn-icon {
+  color: #d63031;
+  background-color: transparent;
+  border: 1px solid #d63031;
+}
+
+.btn-icon:hover {
+  color: #ff7675;
+  background-color: transparent;
+  border: 1px solid #ff7675;
 }
